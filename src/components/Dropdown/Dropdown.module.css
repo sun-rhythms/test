@@ -1,0 +1,184 @@
+.dropdown-container {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  transform: translateY(100px);
+  width: 400px;
+  margin: 0 auto;
+}
+
+.dropdownTitle {
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 4px;
+}
+
+.dropdownInput {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  width: 100%;
+  padding: 6px 15px 8px 10px;
+  min-height: 40px;
+}
+
+.dropdownPlaceholder {
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 24px;
+  color: #c1c1c1;
+}
+
+.openDropIcon {
+  cursor: pointer;
+  width: 10px;
+  transform: rotate(-180deg);
+  transition: all 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.openDropIcon.rotate {
+  transform: rotate(0);
+}
+
+.checkedLanguages-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.checkedLanguage {
+  box-sizing: border-box;
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 6px 14.25px 6px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.deleteButtonIcon {
+  width: 7.5px;
+}
+
+.checkedLanguageLabel {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333333;
+  padding-right: 8px;
+  margin: 0;
+}
+
+.dropping-container {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: calc(100% + 8px);
+  border-width: 0;
+  box-shadow: 0px 4px 32px rgba(51, 51, 51, 0.15);
+  border-radius: 12px;
+  opacity: 0;
+  padding: 16px 0 0;
+  transition: all 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.dropping-container.drop {
+  opacity: 1;
+}
+
+.searchInput-container {
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
+}
+
+.searchInput {
+  margin-left: 8px;
+  background: transparent;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.searchInput::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c1c1c1;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.languagesList {
+  margin: 0;
+  padding: 0;
+}
+
+.languageLi {
+  box-sizing: border-box;
+  list-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 0;
+  padding: 16px 16px 12px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 1px solid #f4f4f4; */
+}
+
+.languageLi:hover {
+  background-color: #f4f4f4;
+}
+
+.countryIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.country-container {
+  display: flex;
+  align-items: center;
+}
+
+.countryLabel {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 8px;
+}
+
+.checkbox {
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #c1c1c1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s cubic-bezier(0.61, 1, 0.88, 1);
+}
+
+.checkbox.checked {
+  background: #005ffd;
+  border-color: #0049d9;
+}
