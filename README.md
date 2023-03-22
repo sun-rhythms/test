@@ -19,12 +19,12 @@
 
 ---
 
-#### <p align="center"><i><b>[Посмотреть результат на GH-Pages](https://sun-rhythms.github.io/test-task-contacts/)</b></i></p>
+#### <p align="center"><i><b>[Посмотреть результат на GH-Pages](https://sun-rhythms.github.io/test/)</b></i></p>
 
 ---
-
 <p align="center">
 
-![contacts](https://i.postimg.cc/qBZh7zY6/Monosnap-React-App-2023-03-22-15-53-11.png)
+![contacts](https://i.postimg.cc/TYkwR92X/121.png)
 
 </p>
+
