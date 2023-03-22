@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.c911a836.css",
+    "main.js": "/test/static/js/main.2f561823.js",
+    "static/media/ger.svg": "/test/static/media/ger.ae6c1132b2fd421a80d1d3f7366b6990.svg",
+    "static/media/spa.svg": "/test/static/media/spa.f40602407bb27b129ef1c7e2a48c2210.svg",
+    "static/media/eng.svg": "/test/static/media/eng.2c65babf836e87a929e02d2109668a52.svg",
+    "static/media/delete.svg": "/test/static/media/delete.019d790bfba6ecf5df62914d38070c83.svg",
+    "static/media/search.svg": "/test/static/media/search.d9e799a437b6df7ced6fa99126f3a80b.svg",
+    "static/media/it.svg": "/test/static/media/it.1a8e38a5e2076c4d28afa0e8669f416c.svg",
+    "static/media/rus.svg": "/test/static/media/rus.24e1bbc2b64e66359e54e6297c1ef81b.svg",
+    "index.html": "/test/index.html",
+    "static/media/pol.svg": "/test/static/media/pol.db89f0b900c66d35c286653be51a34d0.svg",
+    "static/media/checked.svg": "/test/static/media/checked.89d705a297e623bcc9a17cf15df1ad98.svg",
+    "static/media/openDrop.svg": "/test/static/media/openDrop.df40072b4982ff0dcb0bd715bea6fccd.svg",
+    "main.c911a836.css.map": "/test/static/css/main.c911a836.css.map",
+    "main.2f561823.js.map": "/test/static/js/main.2f561823.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c911a836.css",
+    "static/js/main.2f561823.js"
+  ]
+}
